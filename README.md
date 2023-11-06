@@ -1,4 +1,4 @@
-# Api del clima
+# App del clima
 
 Proyecto realizado con [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 -Por Milagros Luna.
