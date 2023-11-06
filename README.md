@@ -1,6 +1,8 @@
-# Proyect
+# Api del clima
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+Proyecto realizado con [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
+-Por Milagros Luna.
+Para practicar uso de apis y pipes
 
 ## Development server
 
