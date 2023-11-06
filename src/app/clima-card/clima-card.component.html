@@ -1,0 +1,19 @@
+<div *ngIf="city" class="container card center weather mt-3 mb-3 p-3 shadow">
+  <div class="subtitle">
+    {{ city | titlecase }}
+  </div>
+
+  <div *ngIf="resultado.main" class="info">
+    <i [ngClass]="icono" class="fa-2x"></i>
+    <div class="title">
+      {{ resultado.main.temp | toCelcius | number : "1.2-2" }}°
+    </div>
+    <p class="description">
+      {{ resultado.weather[0].description | titlecase }}
+    </p>
+  </div>
+</div>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+/>
